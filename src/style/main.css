@@ -1,0 +1,17 @@
+@import './coins-list.css';
+@import './table-style.css';
+@import './pop-up.css';
+@import './day-subscription.css';
+
+.placeholder {
+	margin-top: 40%;
+}
+
+.btn {
+	padding: 0 50px;
+	margin: 10px;
+}
+
+a {
+	color: #4643D0;
+}

@@ -1,0 +1,15 @@
+tr {
+	border-bottom: 2px solid #333333;
+}
+
+td:last-child {
+	text-align: right;
+}
+
+td span:last-child {
+	color: #7e7e7e;
+}
+
+table {
+	width: 100%;
+}

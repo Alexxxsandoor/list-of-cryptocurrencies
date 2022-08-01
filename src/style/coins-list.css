@@ -1,0 +1,42 @@
+.coins {
+	background: #1a1a1a;
+	margin: 40px auto;
+	padding: 20px;
+	border-radius: 30px;
+	max-width: 600px;
+	color: #ffffff;
+}
+
+.coins-list {
+	background: #1a1a1a;
+	height: 500px;
+	width: 100%;
+	padding: 10px;
+	padding: 10px;
+	border-radius: 20px;
+	overflow-y: auto;
+	scroll-snap-type: x proximity;
+}
+
+
+.coins-list img {
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+}
+
+
+.coins-list::-webkit-scrollbar {
+	width: 10px;
+	background-color: #111111;
+	border-radius: 2px;
+}
+
+.coins-list::-webkit-scrollbar-thumb {
+	background-color: #949494;
+	border-radius: 2px;
+}
+
+.coins-list::-webkit-scrollbar-thumb:hover {
+	background-color: #ffffff;
+}
